@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peugeot Warnes | Repuestos Peugeot y Citroën originales y alternativos · Av. Warnes 1201</title>
+<meta name="description" content="Línea completa de repuestos y accesorios Peugeot y Citroën, originales y alternativos. Av. Warnes 1201, Villa Crespo, CABA. Consultá por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#00857F;--tealL:#D6EFEC;--graph:#22292F;--fog:#EEF1F3;--white:#FFFFFF;--muted:#55606A;--rule:#CBD3D9}
+*{box-sizing:border-box;margin:0}
+body{background:var(--fog);color:var(--graph);font:400 1.0625rem/1.6 "Figtree",system-ui,sans-serif}
+a{color:var(--teal)}
+:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+.wrap{max-width:70rem;margin:0 auto;padding:0 1.25rem}
+.top{display:flex;justify-content:space-between;align-items:center;padding:1rem 0;gap:1rem}
+.logo{font-weight:900;font-size:1.3rem;text-decoration:none;color:var(--graph)}
+.logo span{color:var(--teal)}
+.btn{display:inline-block;background:var(--teal);color:#fff;font-weight:700;text-decoration:none;padding:.8rem 1.15rem;border-radius:8px;border:0;cursor:pointer;font-family:"Figtree",sans-serif;font-size:1rem}
+.btn:hover{background:var(--graph)}
+.hero{padding:2rem 0 2.5rem}
+.hero h1{font-weight:900;font-size:clamp(2.3rem,6.5vw,4.4rem);line-height:1;letter-spacing:-.02em;max-width:16ch}
+.hero p{font-size:1.2rem;color:var(--muted);margin-top:.9rem;max-width:34rem}
+.split{display:grid;grid-template-columns:1fr;gap:1rem;margin-bottom:3rem}
+.brand{background:var(--white);border-radius:14px;padding:1.5rem;display:grid;gap:.8rem}
+.brand h2{font-weight:900;font-size:2rem;line-height:1}
+.brand.c{background:var(--graph);color:var(--fog)}
+.brand.c h2{color:#fff}
+.models{display:flex;flex-wrap:wrap;gap:.45rem}
+.models button{font:500 .95rem "Figtree",sans-serif;border:1px solid var(--rule);background:var(--fog);color:var(--graph);padding:.35rem .8rem;border-radius:999px;cursor:pointer}
+.brand.c .models button{background:transparent;color:var(--fog);border-color:#4A545D}
+.models button[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:#fff}
+.ask{background:var(--white);border-radius:14px;padding:1.5rem;display:grid;gap:.9rem;margin-bottom:3rem}
+.ask h2{font-weight:900;font-size:1.6rem;line-height:1.1}
+.row{display:grid;grid-template-columns:1fr;gap:.8rem}
+label{display:grid;gap:.3rem;font-weight:700;font-size:.95rem}
+input{font:inherit;padding:.7rem .85rem;border:2px solid var(--rule);border-radius:8px}
+input:focus{border-color:var(--teal);outline:none}
+.sel{color:var(--muted)}
+.info{display:grid;grid-template-columns:1fr;gap:2rem;padding-bottom:3rem}
+.info h2{font-weight:900;font-size:1.7rem;margin-bottom:.8rem;line-height:1.1}
+dl{display:grid;grid-template-columns:auto 1fr;gap:.45rem 1.2rem}
+dt{color:var(--muted)}dd{font-weight:500}
+blockquote{background:var(--tealL);border-radius:10px;padding:1rem 1.2rem;margin-top:1.25rem}
+blockquote footer{color:var(--muted);font-size:.9rem}
+iframe{width:100%;height:320px;border:0;border-radius:14px}
+footer.site{padding:0 0 3rem;color:var(--muted);font-size:.9rem}
+@media (min-width:780px){.split{grid-template-columns:1fr 1fr}.row{grid-template-columns:1fr 1fr}.info{grid-template-columns:1fr 1.2fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="logo" href="#">Peugeot <span>Warnes</span></a>
+    <a class="btn" href="https://wa.me/5491139341587">WhatsApp</a>
+  </div>
+
+  <header class="hero">
+    <h1>Repuestos Peugeot y Citroën en Warnes.</h1>
+    <p>Línea completa de repuestos y accesorios, originales y alternativos. Elegí tu modelo, contanos qué pieza buscás y te respondemos por WhatsApp.</p>
+  </header>
+
+  <div class="split">
+    <div class="brand"><h2>Peugeot</h2><div class="models" data-brand="Peugeot"><button type="button">206</button><button type="button">207</button><button type="button">208</button><button type="button">307</button><button type="button">308</button><button type="button">408</button><button type="button">2008</button><button type="button">3008</button><button type="button">Partner</button><button type="button">Otro</button></div></div>
+    <div class="brand c"><h2>Citroën</h2><div class="models" data-brand="Citroën"><button type="button">C3</button><button type="button">C4</button><button type="button">C4 Cactus</button><button type="button">C5</button><button type="button">Berlingo</button><button type="button">Xsara Picasso</button><button type="button">Otro</button></div></div>
+  </div>
+
+  <form class="ask" onsubmit="return consultar(event)">
+    <h2>Consultá tu repuesto</h2>
+    <p class="sel" id="sel" aria-live="polite">Elegí un modelo arriba.</p>
+    <div class="row">
+      <label>Año<input id="anio" inputmode="numeric" maxlength="4" placeholder="Ej.: 2016"></label>
+      <label>Repuesto<input id="pieza" required placeholder="Ej.: pastillas de freno delanteras"></label>
+    </div>
+    <div><button class="btn" type="submit">Consultar por WhatsApp</button></div>
+  </form>
+
+  <div class="info">
+    <section>
+      <h2>Local Av. Warnes 1201</h2>
+      <dl>
+        <dt>Dirección</dt><dd>Av. Warnes 1201, Villa Crespo, CABA (1414)</dd>
+        <dt>Teléfonos</dt><dd><a href="tel:+541148559451">(011) 4855-9451</a> · <a href="tel:+541148571678">4857-1678</a></dd>
+        <dt>WhatsApp</dt><dd><a href="https://wa.me/5491139341587">11 3934-1587</a></dd>
+        <dt>Email</dt><dd><a href="mailto:info@peugeotwarnes.com.ar">info@peugeotwarnes.com.ar</a></dd>
+        <dt>Lun a vie</dt><dd>8 a 18 h</dd>
+        <dt>Sábados</dt><dd>8:30 a 13 h</dd>
+      </dl>
+      <blockquote>“Tiene todo para el automotor y lo más importante: la atención y el asesoramiento.”<footer>Reseña en Google</footer></blockquote>
+    </section>
+    <iframe title="Mapa de Peugeot Warnes" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-58.4570%2C-34.6010%2C-58.4490%2C-34.5960&layer=mapnik&marker=-34.598496%2C-58.453015"></iframe>
+  </div>
+
+  <footer class="site">Peugeot Warnes · Av. Warnes 1201, CABA. Comercio independiente de repuestos; Peugeot y Citroën son marcas de sus fabricantes.</footer>
+</div>
+<script>
+let modelo='';
+document.querySelectorAll('.models button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.models button').forEach(x=>x.setAttribute('aria-pressed','false'));
+  b.setAttribute('aria-pressed','true');
+  modelo=b.parentElement.dataset.brand+' '+b.textContent;
+  document.getElementById('sel').textContent='Modelo elegido: '+modelo;
+}));
+document.querySelectorAll('.models button').forEach(b=>b.setAttribute('aria-pressed','false'));
+function consultar(e){
+  e.preventDefault();
+  const a=document.getElementById('anio').value.trim(), p=document.getElementById('pieza').value.trim();
+  if(!modelo){document.getElementById('sel').textContent='Elegí un modelo arriba para continuar.';return false}
+  const t='Hola, busco '+p+' para '+modelo+(a?' '+a:'')+'. ¿Tienen stock y precio?';
+  location.href='https://wa.me/5491139341587?text='+encodeURIComponent(t);
+  return false;
+}
+</script>
+</body>
+</html>
